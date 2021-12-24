@@ -4,8 +4,8 @@ from django.db.models import Count
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 
-from blog import Comment
-from blog import Post
+from blog.models import Comment
+from blog.models import Post
 from sensive_blog.settings import COMPANY_COORDINATES
 
 
